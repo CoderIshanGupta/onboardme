@@ -1,0 +1,15 @@
+{
+  "name": "onboardme",
+  "version": "0.0.1",
+  "private": true,
+  "packageManager": "pnpm@10.25.0",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint"
+  },
+  "devDependencies": {
+    "turbo": "latest",
+    "typescript": "^5.6.2"
+  }
+}
