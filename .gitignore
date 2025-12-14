@@ -1,0 +1,45 @@
+# Node / pnpm
+node_modules/
+.pnpm-store/
+.pnpm-debug.log
+pnpm-lock.yaml
+
+# Next.js
+.next/
+out/
+build/
+dist/
+
+# Turborepo
+.turbo/
+
+# Environment
+.env
+.env.local
+.env*.local
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+*.tsbuildinfo
+
+# Sharp / images (we'll use later)
+sharp/
+
+# Vercel / Cloudflare
+.vercel
+.cf
+.netlify
+
+# Local dev
+*.swp
+*.swo
+*~
+
+# Rust / WASM (when we add parser later)
+target/
+Cargo.lock
+*.wasm
