@@ -1,3 +1,4 @@
+/* apps/web/src/app/globals.css */
 @import "tailwindcss";
 
 @layer base {
@@ -14,12 +15,14 @@
     --primary: 217.2 91.2% 59.8%;
     --primary-foreground: 222.2 84% 4.9%;
   }
+}
 
+@layer base {
   html {
     scroll-behavior: smooth;
   }
 
   body {
-    @apply bg-black text-white antialiased;
+    @apply bg-black text-white antialiased font-sans;
   }
 }
