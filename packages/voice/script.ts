@@ -1,0 +1,1 @@
+export const generateVoiceScript = () => "Welcome to the repo, king.";
